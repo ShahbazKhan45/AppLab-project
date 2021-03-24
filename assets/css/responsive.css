@@ -1,0 +1,423 @@
+@media only screen and (max-width: 980px) and (min-width: 320px) {
+    section{
+        overflow: hidden;
+    }
+    header {
+        padding: 10px 20px;
+    }
+    
+    /* Nav Mobile Screen */
+        header ul.menu li {
+            display: block;
+            text-align: left;
+        padding: 14px 30px;
+        }
+    
+        header ul {
+            padding-top: 40px;
+        }
+        #menu-list{
+            display: none;
+        }
+        .mobile-screen{
+            position: relative;
+            display: block;
+        }
+        .mobile-screen #list-btn{
+            display: block;
+            color: #fcae61;
+            position: absolute;
+            top: -59px;
+            right: 0;
+            font-size: 28px;
+        }
+        a#cross {
+            position: absolute;
+            top: -57px;
+            right: 4px;
+            font-size: 28px;
+            z-index: 12;
+            display: none;
+            color: #fcae61;
+        }
+        nav.mobile-view {
+            background: #e2eaed;
+            position: fixed;
+            height: 100vh;
+            width: 100%;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            padding-top: 25px;
+            z-index: 11;
+            overflow-y: scroll;
+            display: none;
+        }
+        a.btn.blue {
+            margin: 7px 220px 0 0px;
+        }
+        
+        /* End Nav Mobile Screen */
+
+    
+        .faq {
+            padding: 20px 0;
+        }
+        
+        .faq h2 {
+            padding: 0;
+            font-size: 24px;
+        }
+        
+        .faq h2::before {
+            top: 49px;
+        }
+        h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+        
+        p {
+            font-size: 12px !important;
+        }
+        
+        p br {
+            display: none;
+        }
+        
+        .banner {
+            padding-bottom: 0;
+        }
+        
+        .banner-moblie img {
+            max-width: 40%;
+            margin-left: 30%;
+        }
+        
+        .banner::before {
+            display: none;
+        }
+        
+        .trust {
+            padding: 10px 0px;
+        }
+        
+        .trust h6 {
+            padding: 0 0 10px;
+            font-size: 15px;
+        }
+        .banner p {
+    margin: 0;
+}
+        
+        .fea-lef-img {
+            max-width: 60%;
+        }
+        
+        h2 {
+            font-size: 20px !important;
+            line-height: 20px;
+            margin: 0;
+            font-weight: 700;
+        }
+        
+        .feature p {
+            padding-bottom: 0px !important;
+        }
+        
+        .fea-content {
+            padding: 0;
+            margin-left: 75px;
+        }
+        
+        .feature img.icons {
+            width: 14%;
+            padding-top: 2px;
+            left: 20px;
+        }
+        
+        .feature {
+            padding-bottom: 0;
+            padding-top: 20px;
+        }
+        
+        .jakpots {
+            padding: 10px 0;
+        }
+        
+        .jakpots h2 {
+            padding: 0;
+            font-size: 24px;
+            line-height: 26px;
+            padding-left: 1px;
+        }
+        
+        .jakpots h2 br {
+            display: none;
+        }
+        
+        .jakpots p {padding: 10px 0 0 1px !important;}
+        
+        p.pl-5 {
+        }
+        
+        .jack-box {
+            padding: 0px 41px;
+            margin-left: 38px;
+        }
+        
+        .jack-box img {
+            width: 14%;
+            padding-top: 5px;
+            position: absolute;
+            left: 20px;
+        }
+        
+        .jack-box h4 {
+            padding: 0 !important;
+            font-size: 15px;
+        }
+        
+        .jack-box p {
+            padding: 0 !important;
+        }
+        
+        .code-integartion img.code-int {
+            width: 80%;
+            padding: 0 0 30px;
+            margin-left: 30px;
+        }
+        
+        h2 br {
+            display: none;
+        }
+        
+        .code-integartion .pl-5 {
+        padding-left: 20px !important;
+        }
+        
+        .code-integartion {
+            padding: 0 0 20px;
+        }
+        
+        .reason-app {
+            padding: 20px 0px 0px;
+            text-align: left;
+        }
+        
+        .r-app-box.jack-box {
+            padding: 4px 20px;
+            margin-left: 50px;
+        }
+        
+        .ultimate h2 {
+            font-size: 23px !important;
+            text-align: left;
+            padding: 5px 0;
+        }
+        
+        .ultimate::after {
+            display: none;
+        }
+        
+        .ultimate {
+            text-align: center;
+            padding: 10px 0 0;
+        }
+        
+        .ulti.jack-box {
+            padding: 0 40px 0px;
+            text-align: left;
+        }
+        
+        .features h2 {
+            /* line-height: 28px; */
+            /* padding: 10px 0; */
+        }
+        .ultimate p {
+    text-align: left;
+}
+        
+        .features {padding: 10px 0 391px;}
+        
+        .features .p-monthly {
+            margin: 0 60px;
+        }
+        
+        .p-monthly.two {margin-top: 350px;text-align: center !important;}
+        
+        .m1 h5 span {
+            font-size: 35px;
+        }
+        
+        .m1 h5 {
+            font-size: 13px;
+            margin: 0;
+        }
+        
+        .features h2 {
+            font-size: 22px !important;
+            text-align: left;
+            line-height: 28px;
+            padding: 10px 0;
+        }
+        
+        .m1 p {
+            margin: 0;
+        }
+        
+        .testmoinal h2 {
+            padding-top: 40px;
+            font-size: 21px !important;
+            padding-bottom: 2px;
+        }
+        
+        .testmoinal p {
+        margin: 0 0 2px;
+        }
+        
+        .testmoinal h4 {
+            font-size: 14px;
+            line-height: 19px;
+        }
+        
+        .testmoinal h6 {
+            font-size: 12px;
+            line-height: 0px;
+        }
+        
+        .app-down {
+            /* padding: 0; */
+            padding-bottom: 130px;
+        }
+        
+        .app-down img.app-right {
+            right: 0;
+            top: 30px;
+        }
+        
+        .app-down img.google {
+            padding: 0 0px 10px;
+            max-width: 40%;
+        }
+        
+        img.appstore {
+            max-width: 40%;
+            padding-bottom: 10px;
+            margin-left: 10px;
+        }
+        
+        a.f-logo img {
+            padding: 0;
+        }
+        
+        a.goto-up i.fal.fa-chevron-up {
+            left: 160px;
+            font-size: 50px;
+        }
+        
+        .copyright p, .copyright p a {
+            font-size: 12px;
+            text-align: center;
+        }
+        a.watch-demo {display: inline-block;font-size: 13px;text-align: center;}
+
+a.btn.blue {
+    display: inline-block;
+    font-size: 12px;
+    padding: 8px 20px;
+}
+.fea-lef-img img {
+    margin-left: 30%;
+}
+
+.fea-content h4 {
+    font-size: 15px;
+}
+
+.code-integartion h2 {
+    line-height: 25px;
+}
+
+.code-integartion p {
+    padding: 10px 0;
+    margin: 0;
+}
+
+.features p {
+    text-align: left;
+}
+
+.m-annual-btn {
+    margin: 10px 0;
+}
+
+.features .p-monthly h2, .p-monthly p {
+    text-align: center;
+}
+
+.m-annual-btn .btn {
+    font-size: 13px;
+}
+
+.m-annual-btn a.btn:hover {
+    font-size: 13px;
+}
+
+.features .p-monthly ul {
+    padding: 15px 0;
+}
+
+.features .p-monthly h2 {
+    font-size: 17px !important;
+    padding: 5px 0 0;
+}
+
+.features .p-monthly ul li {
+    padding: 6px 0;
+    font-size: 13px;
+}
+
+.features .p-monthly a.btn.blue {
+    margin-left: 62px;
+}
+
+
+span.author-head {
+    bottom: -7px;
+}
+
+.owl-nav {
+    bottom: 0px;
+}
+
+.testmoinal {
+    padding: 20px 0;
+}
+
+button.accordion {
+    font-size: 15px;
+}
+
+button.accordion i.fal.fa-plus {
+    position: absolute;
+    right: 30px;
+    margin-top: 0;
+}
+
+.app-down::after {
+    width: 593px;
+    z-index: -1;
+    opacity: 0.4;
+}
+.reason-app .r-app-box h4 {
+    font-size: 15px;
+}
+
+.app-down p {
+    font-weight: 500;
+}
+.accordion:after {
+    margin: -7px -10px 0 0;
+}
+}
